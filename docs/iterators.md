@@ -11,7 +11,7 @@ interface Iterator<T> {
     throw?(e?: any): IteratorResult<T>;
 }
 ```
-
+([More on the that `<T>` notation later](./types/generics.html))  
 This interface allows to retrieve a value from some collection or sequence
 which belongs to the object.
 
